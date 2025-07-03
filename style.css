@@ -1,0 +1,167 @@
+body {
+    font-size: 22px;
+    font-family: "Grantha Sangam MN", sans-serif;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: "Grantha Sangam MN", sans-serif;
+}
+
+header {
+    background-color: #007765;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+header a img {
+    height: 50px;
+    width: auto;
+    display: block;
+}
+
+.LogoHead nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.LogoHead nav ul li {
+    margin-left: 15px;
+}
+
+.LogoHead nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.PiperNet_BG img {
+    width: 100%;
+    height: 330px;
+}
+
+.PiperNet_Text {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    top: 230px;
+    left: 50%;
+    transform: translate(-50%, -20%);
+}
+
+.TheProblem {
+    text-align: justify;
+    margin: 0 auto;
+    max-width: 90ch;
+}
+
+
+.Introduction {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+
+.Introduction img {
+  width: 100%;
+  height: 310px;
+  object-fit: cover;
+  display: block;
+}
+
+
+.IntroductionText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 800px;
+  color: white;
+  font-size: 24px;
+  font-style: italic;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+
+.IntroductionLogo {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.IntroductionLogo img {
+  float: left;
+  width: 120px;
+  height: 120px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  object-fit: contain;
+}
+
+.IntroductionLogo p {
+  text-align: justify;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+
+.Introduction h2 {
+  margin-bottom: 30px;
+  padding: 0 20px;
+}
+
+.TheTeam {
+    background: #EEEEEE;
+    padding: 5px;
+}
+
+.TeamMembers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.TeamMembers > * {
+    width: calc(33% - 10px);
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.TeamMembers img {
+    width: auto;
+    height: auto;
+    display: block;
+}
+
+.TeamMembers figcaption {
+    margin-top: auto;   
+    text-align: center;
+}
+
+.TheTeam b {
+    color: #007765;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.Foot {
+    background: #333333;
+    padding: 60px;
+}
+
+.Foot p {
+    text-align: center;
+    max-width: 50ch;
+    margin: 0 auto;
+    color: white;
+}
